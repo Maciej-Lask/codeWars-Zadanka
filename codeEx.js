@@ -22,17 +22,17 @@
 
 // console.log(addBinary(1, 7));
 
-function accum(s) {
-  let result = '';
-  for (let i = 0; i < s.length; i++) {
-    result += s[i].toUpperCase() + s[i].toLowerCase().repeat(i);
-    result += i < s.length - 1 ? '-' : '';
-  }
+// function accum(s) {
+//   let result = '';
+//   for (let i = 0; i < s.length; i++) {
+//     result += s[i].toUpperCase() + s[i].toLowerCase().repeat(i);
+//     result += i < s.length - 1 ? '-' : '';
+//   }
 
-    return result;
-}
+//     return result;
+// }
 
-console.log(accum('abcd'));
+// console.log(accum('abcd'));
 
 // function findMissingLetter(array) {
 //   for (i = 0; i < array.length - 1; i++) {
